@@ -8,6 +8,7 @@ constraintlayout = "2.1.4"
 
 # Compose
 composeBom = "2024.12.01"
+materialIcons = "1.7.6"
 activityCompose = "1.9.3"
 lifecycleViewmodelCompose = "2.8.4"
 lifecycleRuntimeCompose = "2.8.4"
@@ -36,7 +37,7 @@ androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = 
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
-androidx-material-icons-filled = { group = "androidx.compose.material", name = "material-icons-filled" }
+androidx-material-icons-filled = { group = "androidx.compose.material", name = "material-icons-filled", version.ref = "materialIcons" }
 
 # Jetpack Compose
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
