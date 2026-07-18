@@ -103,7 +103,7 @@ class ScreenCaptureService : Service() {
                 width,
                 height,
                 density,
-                DisplayManager.FLAG_PRESENTATION,
+                DisplayManager.VIRTUAL_DISPLAY_FLAG_PRESENTATION,
                 imageReader?.surface,
                 null,
                 handler

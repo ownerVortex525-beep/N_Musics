@@ -188,7 +188,7 @@ fun MusicPlayerScreen(viewModel: MusicViewModel = viewModel()) {
                     fontWeight = FontWeight.Bold
                 )
                 Icon(
-                    imageVector = Icons.Filled.Cast,
+                    imageVector = Icons.Filled.PhoneAndroid,
                     contentDescription = "Mirror",
                     tint = Color(0xFF00E5FF),
                     modifier = Modifier.size(24.dp)
