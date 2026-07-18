@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">N_musics</string>
+    <string name="accessibility_service_description">This service is used to block restricted apps as controlled by parent.</string>
+</resources>
